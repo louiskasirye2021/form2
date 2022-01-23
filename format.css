@@ -1,0 +1,29 @@
+h4{
+    font-family: chiller;
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+   color: yellow;
+}
+h1{
+    font-family: centaur;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: yellow;
+}
+label{
+    font-family: chiller;
+    font-size: x-large;
+
+}
+form{
+    border-radius: 4px;
+    background-color: rgba(223, 21, 88, 0.705);
+    width: 500px;
+    margin-left: 400px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+
+}

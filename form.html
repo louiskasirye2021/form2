@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 2</title>
+    <link rel="stylesheet" href="./format.css">
+</head>
+<body>
+    <form action="">
+       
+        <h1>Fill this form to register.</h1>
+        <textarea cols="50" rows="10">
+            leave a comment
+        </textarea><br><br>
+        <label>Firstname</label>
+        <input type="text" name="Firstname"><br><br>
+        <label>Lastname</label>
+        <input type="text" name="Lastname" size="50"><br><br>
+        <h4>Choose your Gender</h4>
+        <label>Female</label>
+        <input type="radio" name="Gender" value="female">
+        <label>Male</label>
+        <input type="radio" name="Gender" value="male">
+<h4>Which subjects have you attended</h4>
+<input type="checkbox" name="C++" value="yes">
+<label>C++</label><br>
+<input type="checkbox" name="Intoduction to IT" value="yes">
+<label>Introduction to IT</label><br>
+<input type="checkbox" name="Ethics" value="yes">
+<label>Ethics</label><br>
+<input type="checkbox" name="PHP" value="yes">
+<label>PHP</label>
+
+<h4>How many siblings do u have?</h4>
+<input type="number" name="noOfsiblings" min="1" step="5"><br><br>
+<h4>Select Your Course</h4>
+<select name="course">
+<option value="IT">BScIT</option>
+<option value="CS">BScCS</option>
+<option value="Educ">BScEduc</option>
+<option value="Gen">BScGen</option>
+</select><br><br>
+<label>Password</label>
+<input type="password" name="userpass"><br>
+<label>Colour</label>
+<input type="color" name="userpass"><br><br>
+
+<input type="submit" value="send">
+<input type="reset" value="cancel">
+    </form>
+</body>
+</html>
